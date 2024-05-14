@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+    color: #fff;
+    width: 100%;
+    background-image: url(/images/1.jpg);
+    background-size: cover;
+    background-position: relative;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    position: relative;
+    left: 40px;
+    top: 60px;
+    margin: 5px;
+}
+.logo p{
+    position: relative;
+    left: 40px;
+    top: 60px;
+    font: bold 24px tahoma;
+}
+nav{
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+}
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    bottom: 40px;
+    width: auto; 
+}
+nav ul li{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a{
+    margin: 40px;
+    color: #fff;
+    font: bold 20px tahoma;
+    text-decoration: none;
+}
+.hero-section{
+    display: flex;
+    position: relative;
+    left: 20px;
+    width: 40%;
+    height: auto;
+    text-align: left;
+    flex-direction: column;
+    
+}
+ .hero-section h4, h1,p{
+    margin: 1px;
+    padding: 8px;
+    letter-spacing: 0.5px;
+    
+}
+.hero-section h1{
+    font: bold 40px tahoma;
+}
+.hero-section h4, p{
+    font: 400 30px tahoma;
+}
+.hero-section h1 span{
+    color: #f4f802;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    left: 65%;
+    top: 0%;
+    width: 30%;
+    height: 760px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+}
+form .wrap-field{
+    display: inline-table;
+    align-items: left;
+} 
+form input, button, #message{
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+form #name, #message{
+    width: 85%;
+}
+#message{
+    height: 80px;
+    resize: none;
+}
+form label {
+    display: flex;
+    font: bold 18px verdana;
+    margin-top: 40px;
+  }
+form #email #number{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    margin-top: 10px;
+    color: #000;
+    font: 600 16px verdana;
+    width: 140px;
+    background: #f4f802;
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+.contact-list img{
+    position: absolute;
+    left: 20px;
+    outline-style: solid;
+    outline-color: #f4f802;
+    outline-width: 4px;
+    border-radius:50px;
+    background: #f4f802;
+}
+.contact-list p{
+    position: relative;
+    left: 46px;
+    top: -10px;
+}
+ul li a:hover{
+    font-size: 24px;
+    background: #f4f802;
+}
+form button:hover{
+    background: #eee;
+    color: #3212ff;
+}

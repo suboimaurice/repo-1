@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: hidden;
+}
+.wrapper{
+    background: linear-gradient(-135deg,#eee 25%,#b2fafa 50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: reltive;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.logo h4{
+    font-family: sans-serif;
+    position: relative;
+    left: 110px;
+    top: 58px;
+}
+.logo img{
+    position: relative;
+    height: 30px;
+    left: 80px;
+    top: 80px;
+}
+.hero-text{
+position: relative;
+top: 200px;
+left: 180px;
+}
+.hero-text p{
+    font: lighter 60px tahoma;
+    letter-spacing: 5;
+}
+.hero-text span{
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    
+}
+.hero-img{
+position: relative;
+left: 680px;
+top: -90px;
+}
+.hero-img img{
+    width: 400px;
+    height: 480px;
+}
+.btns{
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+    left: 180px;
+}
+.btns button{
+    margin-right: 40px;
+    border-radius: 50px;
+    width: 180px;
+    height: 60px;
+    border: none;
+}
+.btns .buy{
+    background-color: #fff;
+    font:900 16px arial;
+}
+.btns .shop{
+    background-color: #75808580;
+    font: 16px arial;
+}
+.btns button:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+}
